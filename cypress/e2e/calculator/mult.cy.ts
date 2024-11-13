@@ -13,6 +13,10 @@ describe("Calculos Básicos - Multiplicação", () => {
     cy.get('[data-cy="display-container"]').should("have.text", "2");
   });
 
+
+
+  
+
   it("Multiplicação 1 * 3", () => {
     cy.get('[data-cy="1"]').click();
     cy.get('[data-cy="x"]').click();
